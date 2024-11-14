@@ -1,0 +1,73 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+img {
+    width: 700px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: lightgray;
+}
+p {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+h2  {
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+
+.Feed1 {
+    margin-top: 60px;
+    background-color: white;
+    width: 700px;
+    height: 565px
+}
+.Feed2 {
+    margin-top: 60px;
+    background-color: white;
+    width: 700px;
+    height: 720px
+}
+.Feed3 {
+    margin-top: 60px;
+    background-color: white;
+    width: 700px;
+    height: 660px
+}
+.FeedsContainer {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start
+}
+
+.Header {
+    background-color: white;
+    text-align: center;
+}
+
+.FeedHead {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.Date {
+    color: grey;
+}
